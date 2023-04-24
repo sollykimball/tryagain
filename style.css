@@ -1,0 +1,111 @@
+/* Body Styles */
+body {
+	background-color: darkgrey;
+	font-family: Arial, sans-serif;
+	color: #2C3E50;
+}
+
+/* Header Styles */
+header {
+	background-color: #2C3E50;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #34495E;
+}
+
+/* Main Content Styles */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1, h2, h3 {
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 20px 0;
+}
+
+ol {
+	margin: 0;
+	padding: 0 0 0 40px;
+}
+
+ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+li ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Image Styles */
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+/* Video Styles */
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor Styles */
+a[href="#my-section"] {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a[href="#my-section"]:hover {
+	text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
